@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+<body>
+	<div class="card-group">
+  <div class="card">
+    <img src="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605171930.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">noticia 1</h2>
+      <p class="card-text" th:text="'n1: '+${noticia1}"></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605075909.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">noticia 2</h2>
+      <p class="card-text" th:text="'n2: '+${noticia2}"></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://static.emol.cl/emol50/Fotos/2019/06/04/file_20190604175922.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">noticia 3</h2>
+      <p class="card-text" th:text="'n3: '+${noticia3}"></p>
+    </div>
+  </div>
+   <div class="card">
+    <img src="https://static.emol.cl/emol50/Fotos/2019/06/05/file_20190605124143.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">noticia 4</h2>
+      <p class="card-text" th:text="'n4: '+${noticia4}"></p>
+      
+    </div>
+  </div>
+   <div class="card">
+    <img src="https://static.emol.cl/emol50/Fotos/2019/05/28/file_20190528175635.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h2 class="card-title">noticia 5</h2>
+      <p class="card-text" th:text="'n5: '+${noticia5}"></p>
+    </div>
+  </div>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
